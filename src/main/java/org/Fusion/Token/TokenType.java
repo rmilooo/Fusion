@@ -1,4 +1,4 @@
-package org.Fusion;
+package org.Fusion.Token;
 
 // TokenType Enum
 public enum TokenType {

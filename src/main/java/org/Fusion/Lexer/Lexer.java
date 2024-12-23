@@ -1,4 +1,7 @@
-package org.Fusion;
+package org.Fusion.Lexer;
+
+import org.Fusion.Token.Token;
+import org.Fusion.Token.TokenType;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.Fusion;
+package org.Fusion.Token;
 
 // Token Class
 public class Token {
