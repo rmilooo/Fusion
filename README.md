@@ -4,6 +4,4 @@
 
 ## Features
 
-- **Compiled in Java**: Runs on the JVM for cross-platform compatibility.
-- **Simple Syntax**: Clean, minimal syntax designed to be easy to learn and use.
-- **Performance**: Optimized for fast execution while maintaining developer-friendly features.
+- **Compiled in Java**: Very Slow dont use it.
