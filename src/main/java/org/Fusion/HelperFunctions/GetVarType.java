@@ -2,7 +2,7 @@ package org.Fusion.HelperFunctions;
 
 public class GetVarType {
 
-    // Method to detect and return the type of a value as a String
+    // Method to detect and return the type of value as a String
     public static String getVariableType(String value) {
         if (value == null) {
             return "null";
@@ -13,21 +13,6 @@ public class GetVarType {
             return "boolean";
         }
 
-        // Check if it's a byte
-        try {
-            Byte.parseByte(value);
-            return "byte";  // It's a byte
-        } catch (NumberFormatException e) {
-            // Not a byte, continue checking
-        }
-
-        // Check if it's a short
-        try {
-            Short.parseShort(value);
-            return "short";  // It's a short
-        } catch (NumberFormatException e) {
-            // Not a short, continue checking
-        }
 
         // Check if it's an integer
         try {
