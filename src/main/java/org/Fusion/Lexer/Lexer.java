@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 // Lexer Class
 public class Lexer {
-    private static final String KEYWORDS = "print|if|else|while|function";  // Add more keywords as needed
+    private static final String KEYWORDS = "print|if|else|while|function|let";  // Add more keywords as needed
     private static final String OPERATORS = "=|\\+|\\-|\\*|/|==|!=";  // Add more operators as needed
     private static final String PUNCTUATIONS = "\\;|\\{|\\}|\\(|\\)";  // Add more punctuations as needed
     private static final String IDENTIFIER = "[a-zA-Z_][a-zA-Z0-9_]*";  // Identifiers start with a letter or underscore

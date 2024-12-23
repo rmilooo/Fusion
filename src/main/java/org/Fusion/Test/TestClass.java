@@ -1,21 +1,17 @@
 package org.Fusion.Test;
 
-import org.Fusion.Lexer;
-import org.Fusion.Token;
+import org.Fusion.Compiler.FusionCompiler;
+import org.Fusion.Lexer.Lexer;
+import org.Fusion.Token.Token;
 
 import java.util.List;
 
 public class TestClass {
 
     public static void main(String[] args) {
-        String sourceCode = "print(\"Hello, world!\"); x = 42;";
+        String code = "print(\"Hello, world!\"); x = 42; print(x + 10);";
 
-        Lexer lexer = new Lexer();
-        List<Token> tokens = lexer.lex(sourceCode);
-
-        // Print out all the tokens
-        for (Token token : tokens) {
-            System.out.println(token);
-        }
+        FusionCompiler compiler = new FusionCompiler();
+        compiler.compileAndRun(code);
     }
 }
