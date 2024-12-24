@@ -43,7 +43,8 @@ public class FusionCompiler {
                             String varType = GetVarType.getVariableType(tokens.get(index + 3).getValue());
                             javaCode.append(varType).append(" ");
                         }
-                    }else if ("when".equalsIgnoreCase(token.getValue().trim())) {
+                    }
+                    else if ("when".equalsIgnoreCase(token.getValue().trim())) {
                         javaCode.append("if");
                     }
                     break;
